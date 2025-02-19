@@ -30,6 +30,8 @@
     <h2>Art et culture</h2>
     <img src="img/culture.jpg" alt="Blason">
     <div class="intro">
+    <h3>Musées :</h3>
+    <br>
     <p class="text">
         Madrid abrite des musées de renommée mondiale, formant le "triangle de l'art" avec le musée du Prado, le musée Thyssen-Bornemisza 
         et le musée Reina Sofía.<br>
