@@ -28,17 +28,17 @@ if(isset($_GET['p'])){
             include "../templates/galerie.php";
             break;
         case "form":
-            $title = 'Contact';
+            $title = 'Contacts';
             include "../templates/contact.php";
             break;
         case "link":
             $title = 'Liens';
-            include "../templates/link.php";
+            include "../templates/liens.php";
             break;
         // variable p pas dans le switch 
         default:
             $title = "Erreur 404";
-            include "../templates/erreur404View.php";
+            include "../templates/page-404.php";
     }
 
 // sinon nous sommes sur l'accueil    
