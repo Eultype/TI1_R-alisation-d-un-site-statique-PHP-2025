@@ -13,6 +13,7 @@
 
 <body>
 
+    <div class="container">
     <header>
         <?php
             include "inc/banniere.php";
@@ -24,5 +25,19 @@
         </nav>
     </header>
 
+    <div class="title">
+        <h2>Erreur 404</h2>
+    </div>
+    
+    <div class="container2">
+    <main>
+        <img src="img/404.jpg" alt="Erreur404">
+        <p class>
+        Euh,la page demandée est introuvable !
+        </p>
+    </main>
+    </div>
+
+    </div>
 </body>
 </html>

@@ -17,12 +17,13 @@
         <?php
             include "inc/banniere.php";
         ?>
-        <nav>
-            <?php
-                include "inc/menu.php";
-            ?>
-        </nav>
     </header>
-
+        
+    <nav>
+        <?php
+            include "inc/menu.php";
+        ?>
+    </nav>
+    
 </body>
 </html>

@@ -1,9 +1,138 @@
-* {
+/* STYLE GLOBAL */
+
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+body {
+    box-sizing: border-box;
+    width: 1280px; 
+    margin: 0 auto;
+}
 
+/* ////////////////////////////////////////// */
+
+/* STYLE POUR LA BANNIERE */
+
+.entete {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.entete img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+}
+
+h1 {
+    width: 300px;
+    height: 80px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ////////////////////////////////////////// */
 
 /* STYLE POUR LE MENU*/
+nav {
+    padding: 10px 0;
+    margin: 10px 0;
+    position: sticky;
+    top: 0;
+    background-color: #CCC;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    padding: 11px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #A90331;
+}
+
+/* ////////////////////////////////////////// */
+
+/* CONTENU PRINCIPAL DE TOUTES LES PAGES */
+
+.container img {
+    margin: 20px;
+}
+.container h2 {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #A90331;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.intro_accueil {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container ul {
+    
+}
+
+/* GALERIE */
+
+.img-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+.img-grid .item {
+    text-align: center;
+    margin: 5px;
+    width: calc((100% - 35px) / 2);
+}
+    .item img {
+    border: 1px solid black;
+    width: 400px;
+    }
+    
