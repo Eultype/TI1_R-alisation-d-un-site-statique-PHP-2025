@@ -24,10 +24,10 @@
         </nav>
 
     <div class="container">
-    <h2>Bienvenue sur notre site consacré à Madrid.</h2>
+    <h2>Histoire</h2>
     <img src="img/histoire.png" alt="Blason">
     <div class="intro">
-    <p>
+    <p class="text">
         La plus ancienne mention de Madrid remonte à 932 sous le nom de Magerit, dérivé de l'arabe "Maǧra" signifiant ruisseau. Fondée par 
         l'émir Muhammad Ier au IXe siècle, Madrid servait de forteresse pour protéger Tolède. En 1085, Alphonse VI intègre Madrid au royaume 
         de Castille. La ville est détruite par les Almoravides en 1109, mais reconquise en 1132. Les Cortes de Castille se tiennent à Madrid 

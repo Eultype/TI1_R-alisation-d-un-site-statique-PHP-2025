@@ -82,6 +82,15 @@ nav ul li a:hover {
 
 /* CONTENU PRINCIPAL DE TOUTES LES PAGES */
 
+h3 {
+    padding: 0px 20px 0px 20px;
+}
+
+.text {
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+}
+
 .container img {
     margin: 20px;
 }
@@ -91,6 +100,14 @@ nav ul li a:hover {
     width: 100%;
     color: white;
     background-color: #A90331;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+.culture {
+    list-style-type: disc;
+    padding-left: 50px;
+    display: block;
 }
 
 .container {
@@ -105,15 +122,23 @@ nav ul li a:hover {
 
 .intro_accueil {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: black;
     padding-left: 25px;
     padding-right: 25px;
+    justify-items: center;
+    text-align: justify;
 }
 
-.container ul {
-    
+.liste_accueil ul li a {
+    text-decoration: none;
+    color : #A90331;
+}
+
+.liste_accueil ul li {
+    list-style: none;
+    text-align: center;
 }
 
 /* GALERIE */
@@ -132,7 +157,131 @@ nav ul li a:hover {
     width: calc((100% - 35px) / 2);
 }
     .item img {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 400px;
     }
     
+
+
+/* LIENS */
+
+.links {
+    margin: 40px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+    
+.link {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link p {
+    text-align: center;
+}
+    
+.link a {
+    text-decoration: none;
+    color: #A90331;
+}
+    
+.top-page h3 {
+    margin-top: 20px;
+}
+
+.text_liens {
+    font-weight: bold;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+/*FORM*/
+
+.contact-form {
+    width: 100%;
+    height:100vh;
+    position: relative;     /* pour définir les références du positionnement absolu du formulaire */
+}
+
+.form {
+    width: 50%;
+    background-color: #F0F1F3;
+    padding: 40px;
+    border-radius: 10px;
+    height:70vh;
+    position: absolute;
+    top:10vh;
+    margin-left: 48%;
+    left: -25%;
+}
+
+.form h4 {
+    color: #4A4948;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+
+.form p {
+    color: #4A4948;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.row-form {
+    width: 100%;
+}
+
+.row-form input {
+    width: 45%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color:#4A4948;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.row-form input[name='nom']{
+    float: left;
+}
+
+.row-form input[name='email']{
+    float: right;
+}
+
+.row-col-form input,
+.row-col-form textarea {
+    width: 95%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #4A4948;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.row-col-form button {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1B2148;
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.row-col-form button:hover {
+    background-color: #1F7DF5;
+    transition: 0.6s;
+}

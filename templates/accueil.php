@@ -13,8 +13,6 @@
 
 <body>
 
-<body>
-
     <header>
         <?php
             include "inc/banniere.php";
@@ -28,10 +26,10 @@
 
 
         <div class="container">
-        <h2>Bienvenue sur notre site consacré à Madrid.</h2>
+        <h2>Bienvenue sur notre site consacré à Madrid</h2>
         <img src="img/armoiries.png" alt="Blason">
         <div class="intro_accueil">
-        <p>
+        <p class="text">
         Madrid est la capitale et la plus grande ville d'Espagne. Située dans la partie centrale du royaume, elle est également la 
         capitale et la ville la plus peuplée de la Communauté de Madrid. En tant que capitale d'État, elle abrite la plupart des 
         institutions politiques du pays, dont la résidence royale, le siège du gouvernement et le Parlement.<br>
@@ -50,7 +48,36 @@
         musée Thyssen-Bornemisza, comptent parmi les plus visités au monde. En outre, Madrid abrite deux des plus grands clubs de football 
         au monde, le Real Madrid et l'Atlético de Madrid.
         </p>
-            <div>
+        <br>
         </div>
+        <p>Dans ce site, vous trouverez diverses ,informations concernant :</p>
+        <br>
+        <div class="liste_accueil"> 
+            <ul>
+                <li>
+                    <a href="./?p=geo">Une brève présentation de Bruxelles sur son rôle en Belgique et dans le monde</a>
+                </li>
+                <li>
+                    <a href="./?p=hist">Un rappel historique, de sa fondation à aujourd'hui</a>
+                </li>
+                <li>
+                    <a href="./?p=cult">Un tour d'horizon en matière d'art et culture</a>
+                </li>
+                <li>
+                    <a href="./?p=gal">Une galerie de photographies</a>
+                </li>
+                <li>
+                    <a href="./?p=form">Un formulaire pour nous contacter</a>
+                </li>
+                <li>
+                    <a href="./?p=link">Des liens vers des sites partenaires</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <footer>
+            <p>Sources : Wikipedia - Ville de Bruxelles</p>
+        </footer>
+        
 </body>
 </html>

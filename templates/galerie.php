@@ -26,7 +26,8 @@
     </nav>
 
     <div class="container">
-    <h2>Bienvenue sur notre site consacré à Madrid.</h2>
+    <h2>Galerie Photos</h2>
+    
     <div class="img-grid">
         <div class="item">
         <img src="img/480px_Buen_Retiro_Park.jpg" alt="Buen Retiro Park">

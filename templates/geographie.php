@@ -26,10 +26,10 @@
 
 
         <div class="container">
-        <h2>Bienvenue sur notre site consacré à Madrid.</h2>
+        <h2>Capitale multiple et centre diplomatique mondial</h2>
         <img src="img/geographie.png" alt="Blason">
         <div class="intro">
-            <p>
+            <p class="text">
             Madrid, située au centre de la péninsule Ibérique, s'étend sur le plateau de la Meseta à une altitude de 657 m, ce qui en fait 
             la deuxième plus haute capitale européenne après Andorre-la-Vieille. La ville appartient au bassin hydrographique du Tage et est
             traversée par le Manzanares, qui reçoit plusieurs ruisseaux en cours de route.<br>

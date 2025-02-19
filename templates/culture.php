@@ -27,10 +27,10 @@
 
 
     <div class="container">
-    <h2>Bienvenue sur notre site consacré à Madrid.</h2>
+    <h2>Art et culture</h2>
     <img src="img/culture.jpg" alt="Blason">
     <div class="intro">
-    <p>
+    <p class="text">
         Madrid abrite des musées de renommée mondiale, formant le "triangle de l'art" avec le musée du Prado, le musée Thyssen-Bornemisza 
         et le musée Reina Sofía.<br>
         <br>
@@ -51,7 +51,7 @@
         <br>
         <h3>Autres musées :</h3>
         <br>
-        <ol>
+        <ul class="culture">
             <li>Musée archéologique national de Madrid</li>
             <li>Real Academia de Bellas Artes de San Fernando</li>
             <li>Museo de América</li>
@@ -64,11 +64,11 @@
             <li>Musée des sciences</li>
             <li>Musée d'histoire de Madrid</li>
             <li>Museo Naval de Madrid</li>
-        </ol>
+        </ul>
         <br>
         <h3>Palais :</h3>
         <br>
-        <ol>
+        <ul class="culture">
             <li>Palais Royal</li>
             <li>Palais des Communications</li>
             <li>Palais des ducs de Pastrana (ou Palais Gilhou)</li>
@@ -87,11 +87,11 @@
             <li>Basilique Notre-Dame-de-la-Conception de Madrid</li>
             <li>Basilique hispano-américaine de Notre-Dame de la Miséricorde de Madrid</li>
             <li>Église de San Antonio de la Florida (Coupole peinte par Goya)</li>
-        </ol>
+        </ul>
         <br>
         <h3>Monuments : </h3>
         <br>
-        <p>
+        <p class="text">
         Vers le ixe siècle, les seigneurs musulmans de Madrid édifient une muraille défensive dont il subsiste quelques tronçons comme dans 
         le parc Mohammed Ier. Ils font aussi creuser des canaux d'irrigation et de transport des eaux (qanats).<br>
         <br>

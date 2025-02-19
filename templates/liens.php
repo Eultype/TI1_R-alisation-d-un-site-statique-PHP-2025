@@ -18,12 +18,42 @@
             include "inc/banniere.php";
         ?>
     </header>
-        
-    <nav>
-        <?php
-            include "inc/menu.php";
-        ?>
-    </nav>
+        <nav>
+            <?php
+                include "inc/menu.php";
+            ?>
+        </nav>
 
+
+        <div class="container">
+        <h2>Quelques liens vers nos partenaires</h2>
+        <img src="img/liens.jpg" alt="Blason">
+        <p class="text_liens">D'autres capitals se sont associées à notre site</p>
+        <div class="links">
+            <div class="link">
+                <a href="">Berlin</a>
+                <a href="">Vienne</a>
+                <a href="">Paris</a>
+                <a href="">Madrid</a>
+                <a href="">Rome</a>
+                <a href="">Londres</a>
+            </div>
+            <div class="link">
+                <a href="">Lisbone</a>
+                <a href="">Prague</a>
+                <a href="">Amsterdam</a>
+                <a href="">Copenhague</a>
+                <a href="">Dublin</a>
+                <a href="">Athènes</a>
+            </div>
+            <div class="link">
+                <a href="">Sofia</a>
+                <a href="">Varsovie</a>
+                <a href="">Heslinki</a>
+                <a href="">Stokholm</a>
+                <a href="">Oslo</a>
+                <a href="">Budapest</a>
+            </div>
+        </div>
 </body>
 </html>
