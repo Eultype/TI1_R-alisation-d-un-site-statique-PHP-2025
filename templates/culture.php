@@ -30,7 +30,7 @@
     <h2>Art et culture</h2>
     <img src="img/culture.jpg" alt="Blason">
     <div class="intro">
-    <h3>Musées :</h3>
+    <h3>Musées</h3>
     <br>
     <p class="text">
         Madrid abrite des musées de renommée mondiale, formant le "triangle de l'art" avec le musée du Prado, le musée Thyssen-Bornemisza 
@@ -50,6 +50,7 @@
         <br>
         Ces trois musées font de Madrid une destination incontournable pour les amateurs d'art.
         </p>
+        <a href="#top" class="back-to-top">↑</a>
         <br>
         <h3>Autres musées :</h3>
         <br>
@@ -67,6 +68,7 @@
             <li>Musée d'histoire de Madrid</li>
             <li>Museo Naval de Madrid</li>
         </ul>
+        <a href="#top" class="back-to-top">↑</a>
         <br>
         <h3>Palais :</h3>
         <br>
@@ -90,6 +92,7 @@
             <li>Basilique hispano-américaine de Notre-Dame de la Miséricorde de Madrid</li>
             <li>Église de San Antonio de la Florida (Coupole peinte par Goya)</li>
         </ul>
+        <a href="#top" class="back-to-top">↑</a>
         <br>
         <h3>Monuments : </h3>
         <br>
@@ -106,7 +109,7 @@
         avoisinantes). Les sept étoiles présentes autour sur la partie bleue, qui représente le ciel symbolisent la Grande Ourse. Enfin, 
         la couronne, dernier élément qui a été ajouté au blason en 1544, est le symbole de la monarchie.
         </p>
-
+        <a href="#top" class="back-to-top">↑</a>
         <div>
     </div>
 </body>
