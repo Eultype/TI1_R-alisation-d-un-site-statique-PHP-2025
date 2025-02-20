@@ -50,7 +50,7 @@
         </p>
         <br>
         </div>
-        <p>Dans ce site, vous trouverez diverses ,informations concernant :</p>
+        <p>Dans ce site, vous trouverez diverses informations concernant :</p>
         <br>
         <div class="liste_accueil"> 
             <ul>
@@ -76,7 +76,7 @@
         </div>
         <br>
         <footer>
-            <p>Sources : Wikipedia - Ville de Bruxelles</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Madrid">Wikipedia - Ville de Madrid</a></p>
         </footer>
         
 </body>

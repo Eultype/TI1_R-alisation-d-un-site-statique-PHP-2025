@@ -29,8 +29,8 @@
         <h2>Quelques liens vers nos partenaires</h2>
         <img src="img/liens.jpg" alt="Blason">
         <p class="text_liens">D'autres capitals se sont associées à notre site</p>
-        <div class="links">
-            <div class="link">
+        <div class="lienss">
+            <div class="lien">
                 <a href="">Berlin</a>
                 <a href="">Vienne</a>
                 <a href="">Paris</a>
@@ -38,7 +38,7 @@
                 <a href="">Rome</a>
                 <a href="">Londres</a>
             </div>
-            <div class="link">
+            <div class="lien">
                 <a href="">Lisbone</a>
                 <a href="">Prague</a>
                 <a href="">Amsterdam</a>
@@ -46,7 +46,7 @@
                 <a href="">Dublin</a>
                 <a href="">Athènes</a>
             </div>
-            <div class="link">
+            <div class="lien">
                 <a href="">Sofia</a>
                 <a href="">Varsovie</a>
                 <a href="">Heslinki</a>
