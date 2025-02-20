@@ -1,6 +1,5 @@
 <?php
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
     
@@ -28,7 +27,9 @@
         <div class="container">
         <h2>Erreur 404</h2>
         <img src="img/404.jpg" alt="Blason">
-
-        
+        <p class="text_liens">Euh, la page demandée est introuvable !</p>
+        <br>
+        <p>Le mieux est de retourner à l'accueil</p>
+        <br>
 </body>
 </html>
