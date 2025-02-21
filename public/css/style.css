@@ -60,14 +60,16 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     list-style: none;
+    padding: 0px 75px 0px 75px;
 }
 
 nav ul li {
     flex: 1;
     text-align: center; 
+
 }
 
 nav ul li a {

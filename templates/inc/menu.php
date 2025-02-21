@@ -1,6 +1,5 @@
 <?php
 ?>
-
 <ul>
     <li>
         <a href="./">Accueil</a>
